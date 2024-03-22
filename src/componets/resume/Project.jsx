@@ -183,4 +183,8 @@ const Image = styled.img`
 		object-fit: cover;
 		width: 400px;
 	}
+	@media screen and (max-width: 500px) {
+		object-fit: cover;
+		width: 350px;
+	}
 `;
