@@ -55,6 +55,9 @@ const Circle = styled.div`
 	background: transparent linear-gradient(80deg, #fff 0%, #feae11 100%) 0% 0%
 		no-repeat padding-box;
 	opacity: 0.77;
+	@media screen and (max-width: 500px) {
+		display: none;
+	}
 `;
 
 const Circle1 = styled.div`
@@ -68,6 +71,9 @@ const Circle1 = styled.div`
 		padding-box;
 	opacity: 0.77;
 	border-radius: 50%;
+	@media screen and (max-width: 500px) {
+		display: none;
+	}
 `;
 
 const Circle2 = styled.div`
@@ -81,6 +87,9 @@ const Circle2 = styled.div`
 		no-repeat padding-box;
 	opacity: 0.77;
 	border-radius: 50%;
+	@media screen and (max-width: 500px) {
+		display: none;
+	}
 `;
 
 const Circle3 = styled.div`
@@ -93,6 +102,9 @@ const Circle3 = styled.div`
 		0% no-repeat padding-box;
 	opacity: 0.77;
 	border-radius: 50%;
+	@media screen and (max-width: 500px) {
+		display: none;
+	}
 `;
 
 const Circle4 = styled.div`
@@ -105,6 +117,9 @@ const Circle4 = styled.div`
 		no-repeat padding-box;
 	opacity: 0.77;
 	border-radius: 50%;
+	@media screen and (max-width: 500px) {
+		display: none;
+	}
 `;
 
 const Circle5 = styled.div`
@@ -117,6 +132,9 @@ const Circle5 = styled.div`
 	background: transparent linear-gradient(80deg, ##ffeccb 0%, #c25450 100%) 0%
 		0% no-repeat padding-box;
 	opacity: 0.77;
+	@media screen and (max-width: 500px) {
+		display: none;
+	}
 `;
 const Circle6 = styled.div`
 	position: absolute;
@@ -128,4 +146,7 @@ const Circle6 = styled.div`
 	background: transparent linear-gradient(180deg, #ffc1b6 0%, #a98c66 100%) 0%
 		0% no-repeat padding-box;
 	opacity: 0.5;
+	@media screen and (max-width: 500px) {
+		display: none;
+	}
 `;
