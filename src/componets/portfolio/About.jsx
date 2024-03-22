@@ -70,15 +70,10 @@ const About = () => {
 					<ChannelWrapper>
 						<Info title>Channel</Info>
 						<ImageWrappers channel>
-							<a href="https://github.com/eundomi">
+							<a href="https://github.com/sonumin">
 								<ImageSkill
 									title
 									src={`${process.env.PUBLIC_URL}/images/GitHub.png`}></ImageSkill>
-							</a>
-							<a href="https://eundomi.tistory.com/">
-								<ImageSkill
-									title
-									src={`${process.env.PUBLIC_URL}/images/tistory.svg`}></ImageSkill>
 							</a>
 						</ImageWrappers>
 					</ChannelWrapper>

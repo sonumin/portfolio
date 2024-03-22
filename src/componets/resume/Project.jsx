@@ -113,14 +113,14 @@ const Subject = styled.h2`
 const BigWrapper = styled.div`
 	display: flex;
 	margin: 50px 0 10px 20px;
-	@media screen and (max-width: 1300px) {
+	@media screen and (max-width: 1100px) {
 		flex-direction: column;
 		font-size: 50px;
 	}
 `;
 const PlaceWrapper = styled.div`
 	width: 350px;
-	@media screen and (max-width: 1300px) {
+	@media screen and (max-width: 1100px) {
 		width: 100%;
 	}
 `;
@@ -153,15 +153,16 @@ const Button = styled.button`
 const ContentWrapper = styled.div`
 	margin: 0 0 0 20px;
 	width: 400px;
-	@media screen and (max-width: 1300px) {
+	@media screen and (max-width: 1100px) {
 		margin-left: 0;
 		width: 300px;
 	}
 `;
 const ContentImageWrapper = styled.div`
 	margin-left: auto;
-	@media screen and (max-width: 1300px) {
+	@media screen and (max-width: 1100px) {
 		margin-left: 0;
+		margin-top: 20px;
 	}
 	background: "red";
 `;
@@ -178,7 +179,7 @@ const Image = styled.img`
 	width: 500px;
 	object-fit: cover;
 	margin-left: auto;
-	@media screen and (max-width: 1300px) {
+	@media screen and (max-width: 1100px) {
 		object-fit: cover;
 		width: 400px;
 	}
