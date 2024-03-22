@@ -16,9 +16,10 @@ const Home = () => {
 			</MobileUnderline>
 			<Body>
 				<ImageWrapper>
-					<Image src={`/images/umin.png`} alt="arrow.png"></Image>
+					<Image
+						src={`${process.env.PUBLIC_URL}/images/umin.png`}
+						alt="arrow.png"></Image>
 				</ImageWrapper>
-
 				<Wrapper>
 					<Caution>
 						이력서 ,포트폴리오는 메뉴 또는 아래의 버튼을 통해 이동해주세요.{" "}
