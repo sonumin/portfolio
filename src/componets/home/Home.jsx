@@ -43,6 +43,9 @@ const ImageWrapper = styled.div`
 `;
 const Image = styled.img`
 	height: 60vh;
+	@media screen and (max-width: 740px) {
+		width: 40vh;
+	}
 `;
 const ContentWrapper = styled.div`
 	display: flex;
