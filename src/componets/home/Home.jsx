@@ -61,7 +61,7 @@ const ContentWrapper = styled.div`
 		}
 	}
 	@media screen and (max-width: 740px) {
-		width: max-content;
+		width: 20vw;
 	}
 `;
 const Underline = styled.span`
@@ -87,6 +87,9 @@ const Underline = styled.span`
 `;
 
 const MobileUnderline = styled.span`
+@media screen and (max-width: 740px) {
+	width: 100vw;
+}
 @media screen and (max-width: 1300px) {
   top:16rem;
   z-index: 20;
