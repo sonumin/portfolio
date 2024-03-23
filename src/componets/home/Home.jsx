@@ -88,7 +88,7 @@ const Underline = styled.span`
 
 const MobileUnderline = styled.span`
 @media screen and (max-width: 740px) {
-	width: 100vw;
+	width: 98vw;
 }
 @media screen and (max-width: 1300px) {
   top:16rem;
