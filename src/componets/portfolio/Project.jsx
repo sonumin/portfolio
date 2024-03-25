@@ -316,4 +316,7 @@ const ButtonWrapper = styled.div`
 	@media screen and (max-width: 1300px) {
 		text-align: center;
 	}
+	@media screen and (max-width: 400px) {
+		display: flex;
+	}
 `;

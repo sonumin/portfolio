@@ -166,12 +166,6 @@ const ImageSkill = styled.img`
 	height: 90px;
 	padding-right: 8px;
 
-	${(props) =>
-		props.title &&
-		css`
-			padding-right: 40px;
-		`}
-
 	&:hover {
 		opacity: 0.7;
 		filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.7));
@@ -192,6 +186,6 @@ const ImageWrappers = styled.div`
 		props.channel &&
 		css`
 			display: flex;
-			height: 100%;
+			justify-content: center;
 		`}
 `;
