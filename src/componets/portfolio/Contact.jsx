@@ -65,7 +65,7 @@ const Contact = () => {
 								required
 								onKeyDown={autoResizeTextarea}
 								onKeyUp={autoResizeTextarea}></Message>
-							<Button type="submit">Send </Button>
+							<Button type="submit">Send</Button>
 						</Form>
 					</ContactTextWrapper>
 				</ContactElementWrapper>

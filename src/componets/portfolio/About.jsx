@@ -165,11 +165,15 @@ const Image = styled.img`
 const ImageSkill = styled.img`
 	height: 90px;
 	padding-right: 8px;
-
 	&:hover {
 		opacity: 0.7;
 		filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.7));
 	}
+	${(props) =>
+		props.title &&
+		css`
+			padding: 0px;
+		`}
 `;
 const ImageWrapper = styled.div`
 	display: flex;
