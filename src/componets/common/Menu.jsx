@@ -93,4 +93,7 @@ const Text = styled.p`
 	margin: 0;
 	text-align: right;
 	z-index: 50;
+	&:hover {
+		color: #feae11;
+	}
 `;
