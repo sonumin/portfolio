@@ -26,7 +26,7 @@ const Education = () => {
 					<Role>2018.03 ~ 2024.02</Role>
 					<Contents>
 						컴퓨터공학과에서 4년간 공부하며 컴퓨터구조, 자료구조, 컴퓨터
-						네트워크 등 과목들을 공부하였습니다 졸업하였습니다.
+						네트워크 등 과목들을 공부하였습니다.
 					</Contents>
 				</PlaceWrapper>
 			</BigWrapper>

@@ -8,7 +8,12 @@ const Contact = () => {
 		e.preventDefault();
 
 		emailjs
-			.sendForm("gmail", "template_nfr3qie", e.target, "AtFXMvgVGmkQSl-tU")
+			.sendForm(
+				"service_2l92u77",
+				"template_yhu7tbb",
+				e.target,
+				"Kf_Q9u2JZ4pKVLBcI"
+			)
 			.then((res) => {
 				console.log(res);
 				Swal.fire({
@@ -17,7 +22,7 @@ const Contact = () => {
 				});
 				e.target.reset();
 			})
-			.catch((err) => console.log(err));
+			.catch((err) => console.log(err, "안보내졌어요"));
 	}
 	const autoResizeTextarea = (e) => {
 		let textarea = document.querySelector(".autoTextarea");
@@ -36,7 +41,7 @@ const Contact = () => {
 					<ConatactContactWrapper>
 						<Title>Contact</Title>
 						<Wrapper>
-							<Info href="mailto:tpgh63063@naver.com">tpgh63063@naver.com</Info>
+							<Info href="mailto:tpgh63063@gmail.com">tpgh63063@gamil.com</Info>
 							<Info href="tel:010-6606-6309">010-6606-6309</Info>
 						</Wrapper>
 					</ConatactContactWrapper>
@@ -181,8 +186,8 @@ const Button = styled.button`
 	cursor: pointer;
 	letter-spacing: 0.1em;
 	border: solid 2px grey;
-	:hover {
-		background: #8e7cc3;
+	&:hover {
+		background: #feae11;
 		opacity: 0.5;
 	}
 	@media screen and (max-width: 1300px) {
