@@ -173,6 +173,7 @@ const Message = styled.textarea`
 	}
 `;
 const Button = styled.button`
+	color: black;
 	margin-top: 10px;
 	margin-bottom: 20px;
 	height: 50px;

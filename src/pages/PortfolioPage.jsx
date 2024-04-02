@@ -37,7 +37,7 @@ const Body = styled.div`
 		width: 100%;
 		height: 350px;
 
-		z-index: 2;
+		z-index: 1;
 		pointer-events: none;
 	}
 `;
