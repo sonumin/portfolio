@@ -41,7 +41,7 @@ const Contact = () => {
 					<ConatactContactWrapper>
 						<Title>Contact</Title>
 						<Wrapper>
-							<Info href="mailto:tpgh63063@gmail.com">tpgh63063@gamil.com</Info>
+							<Info href="mailto:tpgh63063@gmail.com">tpgh63063@gmail.com</Info>
 							<Info href="tel:010-6606-6309">010-6606-6309</Info>
 						</Wrapper>
 					</ConatactContactWrapper>
