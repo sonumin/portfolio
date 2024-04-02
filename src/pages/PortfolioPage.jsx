@@ -36,8 +36,7 @@ const Body = styled.div`
 		left: 0px;
 		width: 100%;
 		height: 350px;
-
-		z-index: 1;
+		z-index: -1;
 		pointer-events: none;
 	}
 `;
