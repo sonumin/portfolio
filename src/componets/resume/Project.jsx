@@ -132,6 +132,7 @@ const Role = styled.div`
 `;
 
 const Button = styled.button`
+	color: black;
 	font-family: "GmarketSansLight";
 	margin: 20px 20px 20px 0;
 	height: 50px;

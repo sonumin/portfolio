@@ -264,13 +264,13 @@ const ProjectName = styled.div`
 `;
 const ProjectContent = styled.div``;
 const Button = styled.button`
+	color: black;
 	font-family: "GmarketSansLight";
 	margin: 0 10px 0 0;
 	height: 50px;
 	width: 150px;
 	border-radius: 100px;
 	background: rgba(0, 0, 0, 0);
-
 	background-size: 200% 100%;
 	transition: all 0.3s ease-in-out;
 	cursor: pointer;
