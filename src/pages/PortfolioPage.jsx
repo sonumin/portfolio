@@ -28,7 +28,7 @@ const PortfolioPage = () => {
 export default PortfolioPage;
 const Body = styled.div`
 	padding: 16vh 10vw 5vh 10vw;
-
+	z-index: 0;
 	&:before {
 		content: "";
 		position: fixed;
