@@ -114,7 +114,7 @@ const Circle5 = styled.div`
 	width: 800px;
 	height: 800px;
 	border-radius: 50%;
-	background: transparent linear-gradient(80deg, ##ffeccb 0%, #c25450 100%) 0%
+	background: transparent linear-gradient(80deg, #ffeccb 0%, #c25450 100%) 0%
 		0% no-repeat padding-box;
 	opacity: 0.77;
 `;
