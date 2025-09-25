@@ -21,7 +21,7 @@ const About = () => {
 							</strong>
 							<br />
 							<br />
-							사용자들에게 새롭고 편리한 경험을 제공해주는 프론트엔드 개발자
+							사용자들에게 새롭고 편리한 경험을 제공해주는 개발자
 							손우민입니다.
 							<br />
 							웹사이트의 레이아웃을 이해하기 쉽고 효과적으로 배치하여
@@ -65,6 +65,8 @@ const About = () => {
 								src={`${process.env.PUBLIC_URL}/images/skill6.png`}></ImageSkill>
 							<ImageSkill
 								src={`${process.env.PUBLIC_URL}/images/skill7.png`}></ImageSkill>
+							<ImageSkill
+								src={`${process.env.PUBLIC_URL}/images/skill9.png`}></ImageSkill>
 						</ImageWrappers>
 					</SkillsContent>
 					<ChannelWrapper>

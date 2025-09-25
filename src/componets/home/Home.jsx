@@ -83,7 +83,6 @@ const Underline = styled.span`
 				z-index: 20;
 			`}
   } 
-  }
 `;
 
 const MobileUnderline = styled.span`
@@ -112,7 +111,6 @@ const MobileUnderline = styled.span`
 			css`
 				z-index: 20;
 			`}
-  }
   }
   @media screen and (max-width: 740px) {
     background-position: 18vw ;

@@ -158,8 +158,6 @@ const Input = styled.input`
 		css`
 			width: 48%;
 		`}
-    
-  }
 `;
 const Message = styled.textarea`
 	font-size: 1em;
